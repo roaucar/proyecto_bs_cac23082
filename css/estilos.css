@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Work+Sans:wght@100;300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+}
+
+.navbar{
+    font-weight: blod;
+    color: #d3d3d3;
+}
+.colorFondo{
+    background-color: rgb(69, 69, 69);
+}
+.menuHeader {
+    justify-content: end;
+    padding-right: 2rem;
+}
+.carousel-item {
+    height: 560px;
+    width: 100%;
+}
+.carousel-item img{
+    object-fit: cover;
+}
+
+.carousel-caption{
+    color:#fff;
+    padding: 8rem 18rem 0 0;
+    text-align: right;
+    width: 100%;
+    height: 100%;
+}
+
+.textoConferencia h5{
+    font-size: 18px;
+}
+.textoConferencia p {
+    padding-left: 20rem;
+    font-size: 14px;
+}
+.conferenciaBtn button {
+    background-color: transparent;
+    object-fit: contain;
+    color: #fafafa;
+    font-size: larger;
+}
+.conferenciaBtn button:hover{
+        background-color:rgb(90, 90, 90);
+        color: #fafafa;
+        object-fit: contain;
+        font-size: larger;
+    }
+.sectionOradores {
+    padding: 1rem 9rem 3rem 9rem;
+    height: 80%;
+}
+.tituloOradores {
+    align-items: center;
+    padding-left: 20rem;
+}
+
+.tituloOradores span{
+    font-size: 14px;
+    text-align: center;
+    padding-left: 2.5rem;
+}
+.tituloOradores br{
+    font-size: 18px;
+    text-align: center;
+}
+.card{
+    background-color:white;
+    border:1px solid rgb(180, 180, 180);
+    font-size: 10px;
+    align-items: center;
+    height: 100%;       
+}
+.conoce{
+    font-size: 14px;
+}
+.card-title{
+    font-size:18px;
+}
+.card img{
+    height: auto;
+    object-fit: cover;
+}
+.card-tex{
+    font-size: 11px;
+}
+.card-body h5 {
+    font-size: 10px;
+    display: inline;
+}
+.icon{
+    color:rgb(29, 237, 53);
+    font-size: 3rem;
+    position:fixed;
+    bottom:10px;
+    right: 10px;
+    
+}
+.honolulu{
+    height: 50vh;
+}
+.izquierda{
+    background-image:url("../assets/img/honolulu.jpg");
+    background-size:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    border:1px solid white;
+}
+
+.derecha{
+    background-size:100%;
+    background-color: rgb(57, 57, 57);
+    color:white;
+    height: 100%;
+    border:1px solid white;
+}
+
+.derecha h2 {
+    font-size:25px ;
+    text-align: left;
+}
+.derecha p {
+    font-size: 11px;
+    text-align: left;
+}
+.derecha a{
+    font-size: 11px;
+    padding: 0.5rem;
+    border-radius: 2px;    
+}
+
+.tituloForm {
+    text-align: center;
+}
+.tituloForm span{
+    font-size: 11px;
+}
+
+.textoForm br {
+    font-weight: bold;
+}
+.textoForm {
+    font-size: 13px;
+}
+
+.form{
+    padding:0.5rem 16rem 0.5rem 16rem ;
+	margin:auto;
+}
+.input{
+    width: 45%;
+    font-size: 12px;
+    border-color: rgb(0, 170, 255);
+}
+
+.textareaPadre{
+    padding-top: 0.50rem;
+}
+.textarea{
+	border-color: rgb(0, 170, 255);
+}
+.coment{
+    padding: 0.50rem 0 0 17.5rem;
+    font-size: 10px;
+}
+
+.btnForm {
+    background-color: rgb(159, 217, 83);
+    padding: 0.25rem 20.5rem 0.25rem 20.5rem;
+    box-shadow: none;
+    border: none;
+    font-weight: bold;
+}
+
+.footer {
+    background: linear-gradient(90deg, rgba(29,64,74,1) 0%, rgba(27,72,86,1) 100%);
+    align-items: center;
+    height: 20vh;
+}
+
+.menuFooter a {
+    text-decoration: none;
+    color:#fafafa;
+    font-size: 13PX;
+    padding-left: 3rem;
+}
+.menuFooter{
+    padding-left: 2rem;
+}
+.alum h6{
+    font-size: 9px;
+    text-align: center;
+    color: #babac0;
+}
+
+
+/*pantalla small*/
+@media  (max-width:767px) {
+    .navbar{
+        text-align: center;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+        padding: 0;
+    } 
+
+    .carousel-item {
+        height: initial;
+    }
+    .carousel-caption{
+        text-align:center;
+        padding: 2rem 6rem 0 0 ;
+    }
+    .carousel-caption .textoConferencia h5{
+        text-align: center;
+        font-size: x-small;
+    }
+    .carousel-caption .textoConferencia p{
+        text-align: center;
+        padding: 0 0 0 0;
+        font-size: xx-small;
+        margin: 0;
+        align-items: center;
+    }
+    .conferenciaBtn {
+        display: inline;
+        align-items: center;
+        padding: 0.5rem 0 0 0;
+        font-size: x-small;
+        margin: 0;
+    } 
+    .sectionOradores{
+        flex-direction: column ;
+        padding: 0;
+    }
+    .sectionOradores .contain{
+        align-items: center;
+        padding: 0.5rem 0.5rem 0 0;
+    }
+    .tituloOradores{
+        text-align: center;
+        align-items: center;
+        padding: 0;
+    }
+    .sectionOradores .row .card{
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+    }
+    .card img {
+        object-fit: cover;
+    }    
+
+    .izquierda{
+        height: auto;
+    }
+    .derecha{
+        height: auto;
+    }
+    .form{
+        padding: 0 0.8rem 0 0.8rem;
+    }
+    .coment{
+        padding: 0;
+    }
+    .footer { 
+        height: 100%;
+    }
+    .footer .menuFooter{
+        padding: 0;
+        flex-direction: column;
+    }
+
+}
+/*pantalla media*/
+@media  (min-width:768px) and (max-width:992px) {
+    .navbar{
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+        padding: 0;
+    }
+
+    .carousel {
+        width: 100%;
+    }
+    .carousel-item{
+        padding-bottom: 0;
+        padding-right: 0;
+    }
+    .carousel-caption .textoConferencia h5{
+        text-align: center;
+    }
+    .carousel-caption .textoConferencia p{
+        text-align: center;
+        padding: 0 0 0 0;
+        margin: 0;
+        align-items: center;
+    }
+    .conferenciaBtn {
+        align-items: center;
+        padding: 0.5rem 5rem 0 0;
+    }
+    .sectionOradores{
+        flex-direction: column ;
+        padding: 0 0 0 0.5rem;
+    }
+    .sectionOradores .contain{
+        align-items: center;
+        padding: 0.5rem 0.5rem 0 0;
+    }
+    .tituloOradores{
+        text-align: center;
+        align-items: center;
+        padding: 0;
+    }
+    .sectionOradores .row .card{
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .card img {
+        object-fit: cover;
+    }
+    .honolulu{
+        height: 50%;
+    }
+
+    .izquierda{
+        height: auto;
+    }
+    .derecha{
+        height: 50%;
+        align-items:center;
+    }
+    .form{
+        padding: 0 0.8rem 0 0.8rem;
+    }
+    .coment{
+        text-align: start;
+        padding-left: 2rem;
+    }
+    .footer { 
+        height: 100%;
+    }
+    .footer .menuFooter{
+        flex-direction: column;
+        padding: 0;
+    }
+    .alum h6{
+        flex-direction: column;
+        font-size: 9px;
+        text-align: center;
+        color: #babac0;
+    }
+}
+/*pantalla large*/
+@media  screen and  (min-width:993px) and (max-width:1400) {
+    .header {
+        width: 100vh;
+        height: 100%;
+    }
+
+}
